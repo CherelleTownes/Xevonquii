@@ -7,14 +7,14 @@ This website is a fashion brand aimed to give users a luxury fashion design serv
 
 Wireframes: 
 Desktop -
-<img src="Images/Desktop-Wireframe-1.jpg" width="100">
-<img src="Images/Desktop-Wireframe-2.jpg" width="100">
-<img src="Images/Desktop-Wireframe-3.jpg" width="100">
+<img src="Images/Desktop-Wireframe-1.jpg" width="200">
+<img src="Images/Desktop-Wireframe-2.jpg" width="200">
+<img src="Images/Desktop-Wireframe-3.jpg" width="200">
 
 Tablets and Mobile -
-<img src="Images/Mobile-Tablet-1.jpg" width="100">
-<img src="Images/Mobile-Tablet-2.jpg" width="100">
-<img src="Images/Mobile-Tablet-3.jpg" width="100">
+<img src="Images/Mobile-Tablet-1.jpg" width="200">
+<img src="Images/Mobile-Tablet-2.jpg" width="200">
+<img src="Images/Mobile-Tablet-3.jpg" width="200">
 
 
 API: 
