@@ -100,18 +100,39 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-
-
 .info {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 300px 350px;
 }
 
-.QR-Code {
-  grid-column-start: 2;
-  grid-column-end: 3;
+.red-dress {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
+
+.QR-Code {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  margin-top:-10px;
+}
+
+.qr {
+  font-weight: 700;
+}
+
+.summary {
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 2;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
 
 /* ================================ */
 /* ============Footer============== */
@@ -123,6 +144,10 @@ footer {
   justify-content: space-evenly;
   background-color: #f4f4f4;
   align-content: baseline;
+  margin-top: 5px;
+  border-top: black solid 1px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 input[type=text],

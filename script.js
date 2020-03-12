@@ -6,6 +6,9 @@ const apiKey = "5964325950072be8d95f7bde1257908e";
 const divQuote = document.querySelector(".quote");
 const button = document.querySelector(".quote-button");
 
+// =====================================================
+// ====================Quote API Call===================
+// =====================================================
 
 const getRandomQuote = async () => {
   const response = await axios.get("https://favqs.com/api/qotd", {
@@ -22,6 +25,31 @@ const getRandomQuote = async () => {
 }
 
 getRandomQuote();
+
+// ================================================================
+// =====================QR CODE====================================
+// ================================================================
+
+const qrCode = document.querySelector(".qr");
+
+
+const getQrCode = async () => {
+  const response = await axios.get("https://api.qrserver.com/v1/create-qr-code/?data=https://Fashionarily.com/&size=300x300");
+}
+
+getQrCode();
+
+
+
+
+
+
+
+
+
+
+
+
 
 //     const author = response.data.author;
 //     const famousQuote = response.data.body;
