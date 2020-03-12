@@ -192,7 +192,9 @@ input[type=submit] {
 
   .logo {
     margin-left: 10px;
+    height: 20%;
   }
+
 
   a {
     padding-right: 10px;
