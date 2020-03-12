@@ -6,9 +6,9 @@ body {
 
 h2 {
   text-align: center;
-  font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-family:'Cinzel', serif;
 }
 
 a {
@@ -111,6 +111,10 @@ blockquote:before {
   grid-row-end: 3;
 }
 
+.dress2 {
+  border-radius: 20px;
+}
+
 .QR-Code {
   grid-row-start: 2;
   grid-row-end: 3;
@@ -119,7 +123,7 @@ blockquote:before {
 }
 
 .qr {
-  font-weight: 700;
+  font-family: 'Cinzel', serif;
 }
 
 .summary {
@@ -148,6 +152,7 @@ footer {
   border-top: black solid 1px;
   padding-bottom: 20px;
   margin-bottom: 10px;
+  font-family: 'Cinzel', serif;
 }
 
 input[type=text],
@@ -162,8 +167,12 @@ input[type=submit] {
 }
 
 input[type=submit] {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Cinzel', serif;
   font-size: small;
-
-
 }
+
+/* ================================================== 
+=====================Responsive======================
+=====================================================*/
+
+@media (max-width: 900px)
